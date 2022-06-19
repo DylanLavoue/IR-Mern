@@ -1,0 +1,40 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechMscProPromo2024/T-JSF-600-PAR-6-1-IRCjavascript-dylan.lavoue.git"
+  },
+  "keywords": [
+    "D&L"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechMscProPromo2024/T-JSF-600-PAR-6-1-IRCjavascript-dylan.lavoue/issues"
+  },
+  "homepage": "https://github.com/EpitechMscProPromo2024/T-JSF-600-PAR-6-1-IRCjavascript-dylan.lavoue#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chalk": "^5.0.0",
+    "cli-color": "^2.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^3.0.2"
+  }
+}
